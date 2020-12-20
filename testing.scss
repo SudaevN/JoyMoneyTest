@@ -1,0 +1,29 @@
+/* 
+  Ваша задача состоит в оптимизации кода написанного ниже.
+*/
+
+div.page {
+  &__logo {
+    max-width: 50px;
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    &__card {
+      background: #828282;
+    }
+  }
+  button {
+    text-align: center;
+    color: #383838;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    border-radius: rgb(224, 224, 224);
+    background-color: rgb(206, 184, 62);
+    &:hover {
+      background: #ebde95;
+      color: #fff;
+    }
+  }
+}

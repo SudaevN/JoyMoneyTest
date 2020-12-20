@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Market</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <a href="" class="header__logo">Market</a>
+    </div>
+  </header>
+  <div class="page">
+    <div class="container">
+      <div class="page-wrapper">
+        <section class="catalog">
+          <ul class="catalog__list">
+            <li class="catalog__item catalog__item--hit">
+              <div class="catalog__item-representation">
+                <img src="img/image01.png" alt="">
+              </div>
+              <div class="catalog__item-info">
+                <span class="catalog__item-price">50000 Р</span>
+                <span class="catalog__item-name">Apple iPhone 11 64GB черный (NJD23SK/A)</span>
+                <span class="catalog__item-delivery">Доставка курьером</span>
+              </div>
+              <a href="" class="catalog__item-btn">Подробнее</a>
+            </li>
+            <li class="catalog__item catalog__item--hit">
+              <div class="catalog__item-representation">
+                <img src="img/image01.png" alt="">
+              </div>
+              <div class="catalog__item-info">
+                <span class="catalog__item-price">50000 Р</span>
+                <span class="catalog__item-name">Apple iPhone 11 64GB черный (NJD23SK/A)</span>
+                <span class="catalog__item-delivery">Доставка курьером</span>
+              </div>
+              <a href="" class="catalog__item-btn">Подробнее</a>
+            </li>
+            <li class="catalog__item catalog__item--hit">
+              <div class="catalog__item-representation">
+                <img src="img/image01.png" alt="">
+              </div>
+              <div class="catalog__item-info">
+                <span class="catalog__item-price">50000 Р</span>
+                <span class="catalog__item-name">Apple iPhone 11 64GB черный (NJD23SK/A)</span>
+                <span class="catalog__item-delivery">Доставка курьером</span>
+              </div>
+              <a href="" class="catalog__item-btn">Подробнее</a>
+            </li>
+            <li class="catalog__item catalog__item--hit">
+              <div class="catalog__item-representation">
+                <img src="img/image01.png" alt="">
+              </div>
+              <div class="catalog__item-info">
+                <span class="catalog__item-price">50000 Р</span>
+                <span class="catalog__item-name">Apple iPhone 11 64GB черный (NJD23SK/A)</span>
+                <span class="catalog__item-delivery">Доставка курьером</span>
+              </div>
+              <a href="" class="catalog__item-btn">Подробнее</a>
+            </li>
+            <li class="catalog__item catalog__item--hit">
+              <div class="catalog__item-representation">
+                <img src="img/image01.png" alt="">
+              </div>
+              <div class="catalog__item-info">
+                <span class="catalog__item-price">50000 Р</span>
+                <span class="catalog__item-name">Apple iPhone 11 64GB черный (NJD23SK/A)</span>
+                <span class="catalog__item-delivery">Доставка курьером</span>
+              </div>
+              <a href="" class="catalog__item-btn">Подробнее</a>
+            </li>
+            <li class="catalog__item catalog__item--hit">
+              <div class="catalog__item-representation">
+                <img src="img/image01.png" alt="">
+              </div>
+              <div class="catalog__item-info">
+                <span class="catalog__item-price">50000 Р</span>
+                <span class="catalog__item-name">Apple iPhone 11 64GB черный (NJD23SK/A)</span>
+                <span class="catalog__item-delivery">Доставка курьером</span>
+              </div>
+              <a href="" class="catalog__item-btn">Подробнее</a>
+            </li>
+          </ul>
+          <div class="catalog__more-wrap">
+            <span class="catalog__more-btn"><span>Показать еще</span></span>
+            <div class="preloader">
+              <span></span>
+            </div>
+          </div>
+        </section>
+        <aside class="filters">
+          <form action="" method="POST">
+            <div class="filters__filter">
+              <span class="filters__filter-name">Стоимость</span>
+              <div class="filters__filter-body filters__filter-body--min-max">
+                <input type="number" pattern="^[ 0-9]+$" name="cost-min" placeholder="от 50 000">
+                <input type="number" pattern="^[ 0-9]+$" name="cost-max" placeholder="до 100 000">
+              </div>
+            </div>
+            <div class="filters__filter">
+              <span class="filters__filter-name">Цвет</span>
+              <div class="filters__filter-body filters__filter-body--check-boxes">
+                <input type="checkbox" name="color-black" id="color_01">
+                <label for="color_01">Черный</label>
+                <input type="checkbox" name="color-white" id="color_02">
+                <label for="color_02">Белый</label>
+                <input type="checkbox" name="color-red" id="color_03">
+                <label for="color_03">Красный</label>
+                <input type="checkbox" name="color-orange" id="color_04">
+                <label for="color_04">Оранжевый</label>
+                <input type="checkbox" name="color-grey" id="color_05">
+                <label for="color_05">Серый</label>
+              </div>
+            </div>
+            <div class="filters__filter">
+              <span class="filters__filter-name">Память</span>
+              <div class="filters__filter-body filters__filter-body--check-boxes">
+                <input type="checkbox" name="memory-64" id="memory_01">
+                <label for="memory_01">64GB</label>
+                <input type="checkbox" name="memory-128" id="memory_02">
+                <label for="memory_02">128GB</label>
+                <input type="checkbox" name="memory-512" id="memory_03">
+                <label for="memory_03">512GB</label>
+              </div>
+            </div>
+            <div class="filters__filter">
+              <input class="toggle" type="checkbox" name="warranty" id="warranty">
+              <label for="warranty">Доп. гарантия</label>
+            </div>
+            <div class="filters__btns">
+              <button type="submit" class="filters__btn filters__btn--apply"><span>Применить фильтры</span></button>
+              <button type="reset" class="filters__btn filters__btn--clear"><span>Сбросить фильтры</span></button>
+            </div>
+          </form>
+        </aside>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <nav class="footer__nav">
+          <ul class="footer__nav-list">
+            <li class="footer__nav-item"><a href="" class="footer__nav-link">Каталог</a></li>
+            <li class="footer__nav-item"><a href="" class="footer__nav-link">Помощь</a></li>
+            <li class="footer__nav-item"><a href="" class="footer__nav-link">Доставка</a></li>
+          </ul>
+        </nav>
+        <a href="tel:+79008006633" class="footer__phone">+7(900)800-66-33</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
